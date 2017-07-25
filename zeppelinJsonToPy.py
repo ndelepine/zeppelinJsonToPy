@@ -23,7 +23,7 @@ def zeppelinJsonToPy(fileInput, fileOutput):
 
     with open(fileInput, "r") as f:
         dataStr = f.readline()
-        data = json.loads(dataStr.decode("utf-8-sig"), encoding = "utf-8")s
+        data = json.loads(dataStr.decode("utf-8-sig"), encoding = "utf-8")
 
     out = ""
     for paragraph in data["paragraphs"]:
